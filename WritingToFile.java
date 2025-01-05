@@ -25,7 +25,7 @@ public class WritingToFile {
         } catch (FileNotFoundException ex) {
             System.out.println("There is an issue in creating a file." + ex.getMessage());
         } catch (Exception ex) {
-            System.out.println("Exception  occured " + ex.getMessage());
+            System.out.println("Exception  occured in program " + ex.getMessage());
         } finally {
             if (input != null) {
                 input.close();
